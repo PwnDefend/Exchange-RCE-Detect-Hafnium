@@ -38,3 +38,11 @@ else
 write-host "Your OAB Virtual Directory Modified date was not recent - this is indicitive of normal operation. Please check the system for SSRF based data exfiltration." -ForegroundColor Yellow
 
 }
+
+#adding this in as a fasst edit
+#update your path
+#be mindful of how many lof files you have
+
+write-host "Checking for RESET VIRTUAL DIRECTORY CALLS IN THE IIS LOGS - if you have these within the last 60 odd days that's probably not a good sign" -ForegroundColor Gray
+
+findstr /snip /c:"ResetVirtualDirectory.aspx" C:\inetpub\logs\LogFiles\*.log
