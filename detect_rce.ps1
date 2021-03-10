@@ -46,3 +46,4 @@ write-host "Your OAB Virtual Directory Modified date was not recent - this is in
 write-host "Checking for RESET VIRTUAL DIRECTORY CALLS IN THE IIS LOGS - if you have these within the last 60 odd days that's probably not a good sign" -ForegroundColor Gray
 
 findstr /snip /c:"ResetVirtualDirectory.aspx" C:\inetpub\logs\LogFiles\*.log
+findstr /snip /c:"ResetOABVirtualDirectory" C:\inetpub\logs\LogFiles\*.log
