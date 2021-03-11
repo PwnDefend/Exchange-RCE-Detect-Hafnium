@@ -1,0 +1,16 @@
+/aspnet_client/supp0rt.aspx
+/aspnet_client/discover.aspx
+/aspnet_client/shell.aspx
+/aspnet_client/help.aspx
+/aspnet_client/HttpProxy.aspx
+/aspnet_client/0QWYSEXe.aspx
+/aspnet_client/system_web/error.aspx
+/aspnet_client/OutlookEN.aspx
+/aspnet_client/sol.aspx
+/aspnet_client/aspnettest.aspx
+/aspnet_client/shellex.aspx
+/aspnet_client/error_page.aspx
+/aspnet_client/aspnet_client.aspx
+/aspnet_client/iispage.aspx
+/aspnet_client/system_web/log.aspx
+/aspnet_client/load.aspx
